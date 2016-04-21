@@ -8,7 +8,7 @@ import android.view.View;
 /**
  * Created by tarou on 16/04/18.
  */
-public class DrawView extends View implements {
+public class DrawView extends View{
 
     int x;
     int c;
@@ -16,6 +16,7 @@ public class DrawView extends View implements {
         super(context);
         this.x=x;
         this.c=c;
+
     }
 
     public void onDraw(Canvas c){

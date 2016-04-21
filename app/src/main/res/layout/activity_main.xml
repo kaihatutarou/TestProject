@@ -13,6 +13,25 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-           ></RelativeLayout>
+           >
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="aaa"
+                android:clickable="true"
+                android:onClick="click"
+                android:id="@+id/textView"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="59dp"
+                android:textSize="100dp"
+                android:focusable="false"
+                android:background="@android:color/holo_blue_bright"
+                />
+        </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>
